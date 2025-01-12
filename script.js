@@ -26,3 +26,10 @@ const text = document.getElementById("text");
 button3.addEventListener("click", () => {
   text.style.display = "none";
 });
+
+const button4 = document.getElementById("addItem");
+const itemList = document.getElementById("itemList");
+
+button4.addEventListener("click", () => {
+  itemList.add
+});
